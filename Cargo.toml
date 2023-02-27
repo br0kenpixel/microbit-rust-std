@@ -1,0 +1,15 @@
+[package]
+name = "{{project-name}}"
+version = "0.1.0"
+authors = ["{{authors}}"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cortex-m = "0.7.7"
+cortex-m-rt = "0.7.3"
+panic-halt = "0.2.0"
+microbit-v2 = "0.13.0"
+alloc-cortex-m = "0.4.4"
+cortex-m-semihosting = "0.5.0"

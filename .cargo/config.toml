@@ -1,0 +1,12 @@
+[target.'cfg(all(target_arch = "arm", target_os = "none"))']
+rustflags = [
+  "-C", "link-arg=-Tlink.x",
+]
+runner = "probe-run --chip nRF52833_xxAA"
+
+[build]
+target = "thumbv7em-none-eabihf"
+
+[unstable]
+mtime-on-use = true
+build-std = ["std", "panic_abort"]
