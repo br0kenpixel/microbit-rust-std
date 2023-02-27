@@ -13,3 +13,4 @@ cargo generate --git https://github.com/br0kenpixel/microbit-rust-std
 1. This project is pre-configured to use the nightly compiler. __You cannot use stable/beta, as [`#![feature(restricted_std)]`](https://doc.rust-lang.org/beta/unstable-book/library-features/restricted-std.html) requires a nightly
 compiler!__
 2. I am aware of the fact that [`alloc-cortex-m`](https://crates.io/crates/alloc-cortex-m) is deprecated, however I could not get [`embedded-alloc`](https://crates.io/crates/embedded-alloc) to compile.
+3. This template is designed for projects using Micro:Bit __v2__ boards.
