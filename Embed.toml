@@ -1,10 +1,8 @@
-[default.probe]
-protocol = "Swd"
-
 [default.general]
-chip = "nrf52833_xxAA" # uncomment this line for micro:bit V2
+chip = "nrf52833_xxAA"
 
 [default.rtt]
+# Must be enabled if you want to use `rptintln` and `rprint`.
 enabled = true
 
 [default.gdb]
